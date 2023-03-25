@@ -20,7 +20,7 @@ Natural language processing is ubiquitous in modern intelligent technologies, se
 | Exercises Session  | **Thursdays: 2:15-4:00pm** [[CE1](https://plan.epfl.ch//?room==CE%201%201)] |
 | Project Assistance <br />(not every week) | **Wednesdays: 11:15am-12:00pm** [[CM2](https://plan.epfl.ch//?room==CM%201%202)] |
 | Forum              | Ed Forum [[link](https://edstem.org/eu/courses/379/discussion/)]                                       | 
-| Moodle             | Assignments & Project submissions [[link](https://moodle.epfl.ch/course/view.php?id=17143)]              |
+| Moodle             | Annoucements [[link](https://moodle.epfl.ch/course/view.php?id=17143)]              |
 
 All lectures will be given in person and live streamed on Zoom. The link to the Zoom is available on the course Moodle page. Lectures will be recorded and uploaded to SwitchTube.
 
@@ -31,13 +31,13 @@ All lectures will be given in person and live streamed on Zoom. The link to the 
 |:------------|:--------|:-------------------------------------------------------------------------------------|:----------------------------------:|
 | **Week 1**  | 22 Feb <br />23 Feb  |  Introduction + Building a simple neural classifier  <br />Neural LMs: word embeddings    [[slides][1s]]    |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
-| **Week 2**  |  1 Mar <br />2 Mar   |  Classical and Fixed-context Language Models <br />Recurrent Neural Networks                                |  Antoine Bosselut                  |
+| **Week 2**  |  1 Mar <br />2 Mar   |  Classical and Fixed-context Language Models <br />Recurrent Neural Networks              [[slides][2s]]    |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
-| **Week 3**  |  8 Mar <br />9 Mar   |  LSTMs and Sequence-to-sequence models <br />Theoretical properties of RNNs                                 |  Antoine Bosselut <br />Gail Weiss |
+| **Week 3**  |  8 Mar <br />9 Mar   |  LSTMs and Sequence-to-sequence models <br />Theoretical properties of RNNs               [[slides][3s]]    |  Antoine Bosselut <br />Gail Weiss |
 |             |                      |                                                                                                             |                                    |
-| **Week 4**  | 15 Mar <br />16 Mar  |  Attention + Transformers <br />Transformers                                                                |  Antoine Bosselut                  |
+| **Week 4**  | 15 Mar <br />16 Mar  |  Attention + Transformers <br />Transformers                                              [[slides][4s]]    |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
-| **Week 5**  | 22 Mar <br />23 Mar  |  Pretraining: ELMo, BERT  <br />Transfer Learning: Introduction                                             |  Antoine Bosselut                  |
+| **Week 5**  | 22 Mar <br />23 Mar  |  Pretraining: ELMo, BERT  <br />Transfer Learning: Introduction                           [[slides][5s]]    |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
 | **Week 6**  | 29 Mar <br />30 Mar  |  Transfer Learning: Dataset Biases  <br />Transfer Learning: Prompts                                        |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
@@ -47,52 +47,52 @@ All lectures will be given in person and live streamed on Zoom. The link to the 
 |             |                      |                                                                                                             |                                    |
 | **Week 9**  | 19 Apr <br />20 Apr  |  In-Context Learning <br />                                                                                 |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
-| **Week 10** | 26 Apr <br />27 Apr  |  Scaling Laws + Model Compression <br />***No class***                                                      |  Antoine Bosselut <br />Reza Banaei     |
+| **Week 10** | 26 Apr <br />27 Apr  |  Scaling Laws + Model Compression <br />***No class***                                                      |  Antoine Bosselut <br />Reza Banaei  |
 |             |                      |                                                                                                             |                                    |
 | **Week 11** |  3 May <br />4 May   |  Ethics in NLP <br />Ethics in NLP                                                                          |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
 | **Week 12** | 10 May <br />11 May  |  Interpretability & Analysis of Language Models <br />***No class***                                        |  Antoine Bosselut                  |
 |             |                      |                                                                                                             |                                    |
-| **Week 13** | 17 May <br />18 May  |  Reading Comprehension & Open-domain QA <br />Language & Knowledge Graphs                                   |  Antoine Bosselut                  |
+| **Week 13** | 17 May <br />18 May  |  Reading Comprehension & Open-domain QA <br />Language & Knowledge Graphs                                   |  Antoine Bosselut  <br />Angelika Romanou                |
 |             |                      |                                                                                                             |                                    |
 | **Week 14** | 24 May <br />25 May  |  Tokenization + Multilingual LMs  <br />***No class***                                                      |  Negar Foroutan                    |
 |             |                      |                                                                                                             |                                    |
-| **Week 15** | 31 May <br />1 Jun   |  Language & Vision <br />Language & Vision + Wrap-up                                                        |  Syrielle Montariol <br />Antoine Bosselut    |
+| **Week 15** | 31 May <br />1 Jun   |  Language & Vision <br />Language & Vision + Wrap-up                                                        |  Syrielle Montariol <br />Antoine Bosselut |
 
 <a name="exercises"></a>
 ## Exercise Schedule
 
-| Week    | Date    |  Topic                                                                          |  Instructor                                                         |
-|:------------|:--------|:----------------------------------------------------------------------------|:-------------------------------------------------------------------:|
-| **Week 1**  | 23 Feb  |  Setup + Word embeddings  [[code][1c]]                                      |  Angelika Romanou <br />Sepideh Mamooler <br />Simin Fan            |
-|             |         |                                                                             |                                                                     |
-| **Week 2**  |  2 Mar  |  Word embeddings review <br />Classical & Fixed-context Language Models     |  Angelika Romanou <br />Mohammedreza Banaei <br />Sepideh Mamooler  |
-|             |         |                                                                             |                                                                     |
-| **Week 3**  |  9 Mar  |  Language Models Review <br />Sequence-to-sequence models                   |  Mohammedreza Banaei <br />Sepideh Mamooler <br />Simin Fan         |
-|             |         |                                                                             |                                                                     |
-| **Week 4**  | 16 Mar  |  Sequence-to-sequence models review <br />Attention + Transformers          |  Sepideh Mamooler <br />Mete Ismayil <br />Simin Fan                |
-|             |         |                                                                             |                                                                     |
-| **Week 5**  | 23 Mar  |  Transformers Review <br />Pretraining: ELMo, BERT                          |  Simin Fan <br />Sepideh Mamooler <br />Molly Petersen              |
-|             |         |                                                                             |                                                                     |
-| **Week 6**  | 30 Mar  |  Pretraining Review <br />Transfer Learning: Dataset Biases                 |  Molly Petersen <br />Mete Ismayil <br />Sepideh Mamooler           |
-|             |         |                                                                             |                                                                     |
-| **Week 7**  |  6 Apr  |  Transfer Learning Review <br />Text Generation                             |  Molly Petersen <br />Deniz Bayazit <br />Sepideh Mamooler          |
-|             |         |                                                                             |                                                                     |
-| **Week 8**  | 13 Apr  |  ***EASTER BREAK***                                                         |                                                                     |  
-|             |         |                                                                             |                                                                     |
-| **Week 9**  | 20 Apr  |  Text Generation Review <br />In-context Learning                           |  Deniz Bayazit <br />Silin Gao <br />Sepideh Mamooler               |
-|             |         |                                                                             |                                                                     |
-| **Week 10** | 27 Apr  |  In-context Learning Review <br />Milestone 1 Discussion                    |  Silin Gao TA meetings on-demand                                    |
-|             |         |                                                                             |                                                                     |
-| **Week 11** |  4 May  |  Project                                                                    |  TA meetings on-demand                                              |
-|             |         |                                                                             |                                                                     |
-| **Week 12** | 11 May  |  Milestone 2 Discussion <br />Project                                       |  Silin Gao <br />TA meetings on-demand                              |
-|             |         |                                                                             |                                                                     |
-| **Week 13** | 18 May  |  Project                                                                    |  TA meetings on-demand                                              |
-|             |         |                                                                             |                                                                     |
-| **Week 14** | 25 May  |  Milestone 3 Discussion <br />Project                                       |  Deniz Bayazit <br />TA meetings on-demand                          |
-|             |         |                                                                             |                                                                     |
-| **Week 15** | 1 Jun   |  Project                                                                    |  TA meetings on-demand                                              |
+| Week    | Date    |  Topic                                                                                    |  Instructor                                                         |
+|:------------|:--------|:--------------------------------------------------------------------------------------|:-------------------------------------------------------------------:|
+| **Week 1**  | 23 Feb  |  Setup + Word embeddings  [[code][1e]]                                                |  Angelika Romanou <br />Sepideh Mamooler <br />Simin Fan            |
+|             |         |                                                                                       |                                                                     |
+| **Week 2**  |  2 Mar  |  Word embeddings review <br />Classical & Fixed-context Language Models [[code][2e]]  |  Angelika Romanou <br />Mohammedreza Banaei <br />Sepideh Mamooler  |
+|             |         |                                                                                       |                                                                     |
+| **Week 3**  |  9 Mar  |  Language Models Review <br />Sequence-to-sequence models [[code][3e]]                |  Mohammedreza Banaei <br />Sepideh Mamooler <br />Simin Fan         |
+|             |         |                                                                                       |                                                                     |
+| **Week 4**  | 16 Mar  |  Sequence-to-sequence models review <br />Attention + Transformers   [[code][4e]]     |  Sepideh Mamooler <br />Mete Ismayil <br />Simin Fan                |
+|             |         |                                                                                       |                                                                     |
+| **Week 5**  | 23 Mar  |  Transformers Review <br />Pretraining: ELMo, BERT    [[code][5e]]                    |  Simin Fan <br />Sepideh Mamooler <br />Molly Petersen              |
+|             |         |                                                                                       |                                                                     |
+| **Week 6**  | 30 Mar  |  Pretraining Review <br />Transfer Learning: Dataset Biases                           |  Molly Petersen <br />Mete Ismayil <br />Sepideh Mamooler           |
+|             |         |                                                                                       |                                                                     |
+| **Week 7**  |  6 Apr  |  Transfer Learning Review <br />Text Generation                                       |  Molly Petersen <br />Deniz Bayazit <br />Sepideh Mamooler          |
+|             |         |                                                                                       |                                                                     |
+| **Week 8**  | 13 Apr  |  ***EASTER BREAK***                                                                   |                                                                     |  
+|             |         |                                                                                       |                                                                     |
+| **Week 9**  | 20 Apr  |  Text Generation Review <br />In-context Learning                                     |  Deniz Bayazit <br />Silin Gao <br />Sepideh Mamooler               |
+|             |         |                                                                                       |                                                                     |
+| **Week 10** | 27 Apr  |  In-context Learning Review <br />Milestone 1 Discussion                              |  Silin Gao <br />TA meetings on-demand                                    |
+|             |         |                                                                                       |                                                                     |
+| **Week 11** |  4 May  |  Project                                                                              |  TA meetings on-demand                                              |
+|             |         |                                                                                       |                                                                     |
+| **Week 12** | 11 May  |  Milestone 2 Discussion <br />Project                                                 |  Silin Gao <br />TA meetings on-demand                              |
+|             |         |                                                                                       |                                                                     |
+| **Week 13** | 18 May  |  Project                                                                              |  TA meetings on-demand                                              |
+|             |         |                                                                                       |                                                                     |
+| **Week 14** | 25 May  |  Milestone 3 Discussion <br />Project                                                 |  Deniz Bayazit <br />TA meetings on-demand                          |
+|             |         |                                                                                       |                                                                     |
+| **Week 15** | 1 Jun   |  Project                                                                              |  TA meetings on-demand                                              |
 
 
 ### Exercises Session format:
@@ -108,12 +108,17 @@ Your grade in the course will be computed according to the following guidelines:
 
 ### Assignments (40%):
 There will be three assignments throughout the course. They will be released and due according to the following schedule:
+
 #### Assignment 1 (10%)
+Link for the assignment [[here][1a]].
 - Released: 10 Mar 2023
 - Due: 24 Mar 2023
+
 #### Assignment 2 (15%)
+Link for the assignment [[here][2a]].
 - Released: 24 Mar 2023
 - Due: 7 Apr 2023 
+
 #### Assignment 3 (15%)
 - Released: 7 Apr 2023
 - Due: 28 Apr 2023
@@ -158,7 +163,16 @@ Please contact us for any organizational questions or questions related to the c
 
 
 [1s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%201
+[2s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%202
+[3s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%203
+[4s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%204
+[5s]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%205
 
-[1c]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%201%20-%20Word%20Embeddings
+[1e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%201%20-%20Word%20Embeddings
+[2e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%202%20-%20N-gram%20%26%20Neural%20Language%20Models
+[3e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%203%20-%20RNN
+[4e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%204%20-%20Transformer%20%26%20Attention
+[5e]:https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Exercises/Week%205%20-%20BERT
 
-
+[1a]:https://moodle.epfl.ch/mod/forum/discuss.php?d=87286
+[2a]:https://moodle.epfl.ch/mod/forum/discuss.php?d=87999
